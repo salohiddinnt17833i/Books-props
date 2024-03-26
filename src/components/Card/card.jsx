@@ -12,12 +12,12 @@ function Card(props) {
                     <h6 className="card-subtitle mb-2 text-body-secondary">Counrtry: {country}</h6>
                     <h6 className="card-subtitle mb-2 text-body-secondary">language: {language}</h6>
                     <h6 className="card-subtitle mb-2 text-body-secondary">Year: {year}</h6>
-                    <h6 className="card-subtitle mb-2 text-body-secondary">pages: {pages}</h6>
-                    <p className="card-text"></p>
-                    <a href={link} className="card-link">BOOK</a>
-                </div>
+                <h6 className="card-subtitle mb-2 text-body-secondary">pages: {pages}</h6>
+                <p className="card-text"></p>
+                <a href={link} className="card-link">BOOK</a>
             </div>
         </div>
+        </div >
     )
 }
 
